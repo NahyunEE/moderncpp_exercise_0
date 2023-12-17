@@ -1,0 +1,17 @@
+﻿  Ex01.cpp
+C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(81,23): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+  C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(81,23):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(20,5):
+  	컴파일되는 함수 템플릿 인스턴스화 'void solution<_int>(void)'에 대한 참조를 확인하세요.
+  
+C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(100,23): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(42,27): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+  C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(42,27):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(20,5):
+  	컴파일되는 함수 템플릿 인스턴스화 'void solution<_int>(void)'에 대한 참조를 확인하세요.
+  	C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\Exercise01\Ex01.cpp(78,13):
+  	컴파일되는 함수 템플릿 인스턴스화 'void def<_int>(_int)'에 대한 참조를 확인하세요.
+  
+  Exercise01.vcxproj -> C:\Users\user\OneDrive\문서\GitHub\moderncpp_exercise_0\submission\exercise-01\nahyunkim\Exercise01\x64\Debug\Exercise01.exe
