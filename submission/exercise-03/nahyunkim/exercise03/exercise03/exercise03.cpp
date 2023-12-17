@@ -1,37 +1,31 @@
 #include <iostream>
 
-typedef int _int;
+typedef const int _int;
 
 template<typename T>
 constexpr T GCD(T in1, T in2);
 
+template<typename T>
+constexpr T GCD(T in1, T in2) {
+    if (in2 == 0) {
+        return in1;
+    }
+    else {
+        T r = in1 % in2;
+        return GCD(in2, r);
+    }
+}
+
 void solution();
 
 int main() {
-	solution();
+    solution();
 }
 
 void solution() {
+    constexpr _int result = GCD<_int>(100, 150);
 
-	_int in01, in02;
-	_int result;
-	std::cin >> in01 >> in02;
-
-	result = GCD<_int>(in01, in02);
-
-	std::cout << "Result:" << result<<std::endl;
+    static_assert(result == 50, "Error: GCD is not 50");
 }
 
-template<typename T>
-constexpr T GCD(T in1, T in2) {
 
-	T r = in1 % in2;
-	if (r == 0) {
-		return in2;
-	}
-	else {
-		return GCD(in2, r);
-	}
-
-
-}
